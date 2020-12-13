@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Progate1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style3.css">
+  <style>
+    .header {
+      width: 100%;
+      /*height:120px;*/
+      /*border:1px solid;*/
+      background-color: #00b291;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 45px;
+      font-style: italic;
+      /*font-weight: bold;*/
+      font-family: fantasy;
+      /*line-height: 30px;*/
+      text-align: left;
+    }
+
+    h2 {
+      display: block;
+      color: #000080;
+      font-size: 20px;
+      font-style: oblique;
+      font-weight: bold;
+      line-height: 30px;
+      text-align: left;
+    }
+
+    h3 {
+      display: block;
+      color: #fff;
+      font-size: 25px;
+      font-style: normal;
+      /*font-weight: bold;*/
+      font-family: brush script mt;
+      line-height: 9px;
+      text-align: left;
+    }
+
+    h4 {
+      color: #000000;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: bolt;
+      font-family: brush script mt;
+      text-align: center;
+      line-height: 25px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #11f5da;
+      color: black;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {
+        position: relative;
+      }
+
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="data-container data-padding-12 data-theme-d1 header">
+    <h1>WAROENG NENEK KITA</h1>
+    <h2>
+      <marquee>(Perpaduan Masakan Tradisional & Masa Kini)</marquee>
+    </h2>
+    <h3>Seenak Masakan Kampung Sendiri</h3>
+  </div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="#Beranda" class="active"><i class="fa fa-fw fa-home"></i> Beranda</a>
+    <a href="#Menu"><i class="fa fa-fw fa-info"></i>Menu</a>
+    <a href="#Katering"><i class="fa fa-fw fa-shopping-cart"></i> Katering</a>
+    <a href="#Gifts"><i class="fa fa-fw fa-gift"></i> Gifts</a>
+    <a href="#Tentang"><i class="fa fa-fw fa-sticky-note"></i> Tentang</a>
+    <a href="#Kontak"><i class="fa fa-fw fa-comments-o"></i> Kontak</a>
+    <a href="#Tempat"><i class="fa fa-fw fa-map"></i> Tempat</a>
+    <a href="#Keranjang"><i class="fa fa-fw fa-shopping-basket"></i> Keranjang</a>
+    <a href="#Daftar"><i class="fa fa-fw fa-user-md"></i> Daftar</a>
+    <a href="#Masuk"><i class="fa fa-fw fa-user"></i> Masuk</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <div class="content">
+    <div class="left-content">
+      <div style="padding-left:16px">
+        <h4>Typical Indonesian Food</h4>
+        <h4>Cek Daftar Menu Sekarang Juga!!!</h4>
+      </div>
+
+      <div class="data-row-padding data-theme">
+
+        <div class="data-third data-section">
+          <div class="data-card-4">
+            <img src="gado-gado.jpg" style="width:100%">
+            <div class="data-container data-white">
+              <h4>Gado-gado</h4>
+              <p>Gado-gado adalah salah satu makanan khas yang berasal dari Indonesia yang berupa sayur-sayuran yang
+                direbus dan dicampur jadi satu, dengan bumbu kacang atau saus dari kacang tanah dan yang dihaluskan
+                disertai irisan telur dan pada umumnya banyak yang menambahkan kentang rebus yang sudah dihaluskan untuk
+                saus gado gado kentang rebus dimasak bersamaan dengan bumbu kacang kemudian di atasnya ditaburi bawang
+                goreng. Sedikit emping goreng atau kerupuk juga ditambahkan.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-third data-section">
+          <div class="data-card-4">
+            <img src="rujak-cingur.jpg" style="width:100%">
+            <div class="data-container data-white">
+              <h4>Rujak Cingur</h4>
+              <p>Rujak cingur adalah salah satu makanan tradisional yang mudah ditemukan di Jawa Timur. Rujak cingur
+                biasanya terdiri dari irisan buah seperti timun, kerahi, bengkuang, mangga muda, nanas, kedondong,
+                kemudian ditambah lontong, tahu, tempe, bendoyo, cingur, serta sayuran seperti kecambah/taoge, kangkung,
+                dan kacang panjang. Semua bahan tadi dicampur dengan saus atau bumbu yang terbuat dari olahan petis
+                udang, air matang, gula merah, cabai, kacang tanah yang digoreng, bawang goreng, garam, dan irisan tipis
+                pisang yang masih muda.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="data-third data-section">
+          <div class="data-card-4">
+            <img src="ketoprak.jpg" style="width:100%">
+            <div class="data-container data-white">
+              <h4>Ketoprak</h4>
+              <p>Ketoprak adalah salah satu jenis makanan khas Indonesia menggunakan ketupat yang mudah dijumpai.
+                Bahan-bahan utamanya adalah tahu, bihun, mentimun, taoge dan bisa juga memakai telur rebus yang
+                dilengkapi dengan saus kacang, kecap manis, dan taburan bawang merah goreng. Dapat pula dihidangkan
+                dengan tambahan kerupuk atau emping melinjo. Beberapa versi ada pula yang menyertakan tempe sebagai
+                komponennya.</p>
+            </div>
+          </div>
+          <br><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="right-content">
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Informasi Lainnya</h2>
+            <p>(Grab it FAST)</p>
+          </header>
+          <section>
+            <table>
+              <tr>
+                <th>Menu</th>
+                <td>Idr</td>
+              </tr>
+              <tr>
+                <th>Gado-gado</th>
+                <td>15k</td>
+              </tr>
+              <tr>
+                <th>Rujak Cingur</th>
+                <td>18k</td>
+              </tr>
+              <tr>
+                <th>Ketoprak</th>
+                <td>15k</td>
+              </tr>
+              <th>Tambah toping</th>
+              <td>+3k</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+      <article class="profile card">
+        <p>PEMESANAN</p>
+        <fieldset>
+          <legend>BIODATA:</legend>
+          <label for="fname">Nama:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="laddres">Pilihan Pesanan:</label><br>
+          <input type="text" id="laddres" addres="laddres"> <br><br><br>
+          <div class="content-item">
+            <p>Asal Daerah :</p>
+            <form action="/action_page.php">
+              <input list="browsers" name="browser">
+              <datalist id="browsers">
+                <option value="Surabaya">
+                <option value="Sidoarjo">
+                <option value="Jombang">
+                <option value="Mojokerto">
+                <option value="Gresik">
+              </datalist>
+              <input type="submit" value="DAFTAR"></form>
+          </div>
+        </fieldset>
+      </article>
+      <article class="profile card">
+        <fieldset>
+          <div class="contact-form">
+            <h5 class="section-title">SUARA PELANGGAN</h5>
+            <p>Penilaian</p>
+            <!-- Add an <input> tag -->
+            <input>
+            <p>Kritik dan Saran</p>
+            <!-- Add a <textarea> tag -->
+            <textarea></textarea>
+            <input class="contact-submit" type="submit" value="KIRIM">
+          </div>
+        </fieldset>
+      </article>
+      <article class="profile card">
+        <div class="about">
+          <ul>Kontak Person
+            <li>Mojokerto (+6285731244566)</li>
+            <li>Sidoarjo (+6285765432189)</li>
+            <li>Jombang (+6285743890765)</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="footer">
+    <p>@Waroeng Nenek Kita 2009</p>
+  </div>
+  <script type="text/javascript" src="javascript.js"></script> 
+</body>
+
+</html>
