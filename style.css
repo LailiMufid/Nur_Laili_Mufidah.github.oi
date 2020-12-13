@@ -212,41 +212,41 @@ transform: translateX(-50%);
     .footer {
         display: block;
         background-color: royalblue;
-        bottom:-2010px;
+        bottom:-1980px;
     }
 }
 @media (max-width: 680px) {
     .footer {
         display: block;
         background-color: royalblue;
-        bottom:-2020px;
+        bottom:-1990px;
     }
 }
 @media (max-width: 650px) {
     .footer {
         display: block;
         background-color: royalblue;
-        bottom:-2040px;
+        bottom:-2000px;
     }
 }
 @media (max-width: 620px) {
     .footer {
         display: block;
         background-color: royalblue;
-        bottom:-2060px;
+        bottom:-2020px;
     }
 }
 @media (max-width: 600px) {
     .footer {
         display: block;
         background-color: royalblue;
-        bottom:-2100px;
+        bottom:-2040px;
     }
 }
 @media (max-width: 500px) {
     .footer {
         display: block;
         background-color: royalblue;
-        bottom:-2120px;
+        bottom:-2060px;
     }
 }
